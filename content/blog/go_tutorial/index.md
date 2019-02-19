@@ -72,7 +72,7 @@ import (
 )
 ```
 
-Se você vem de linguagens como Python, Java, e ~~eu sinto muito~~ javascript, irá se familiarizar com esta parte. A ideia é simples, importar outros pacotes, seus ou de terceiros para dentro do atual programa. Dessa forma é possível organizar e manter seu codigo mais limpo.
+Se você vem de linguagens como Python, Java, e ~~eu sinto muito~~ javascript, irá se familiarizar com essa parte. A ideia é simples, importar outros pacotes, seus ou de terceiros para dentro do atual escopo. Dessa forma é possível organizar e manter seu codigo mais limpo.
 
 No exemplo demonstrado é importado o ``fmt``, que implementa um serie de funções para executar operações de I/O "Entrada e Saída", por exemplo: Scanf, Printf, Println entre outras.
 
