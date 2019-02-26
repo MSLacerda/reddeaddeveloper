@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'Red Dead Developer',
     author: 'Matheus Lacerda',
-    description: 'An regular dev show',
-    siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
+    description: 'Dev Blog',
+    siteUrl: 'https://rddeveloper.netlify.com/',
     social: {
       twitter: 'MatheusSl3'
     }
