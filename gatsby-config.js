@@ -62,11 +62,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Red Dead Developer`,
+        short_name: `RDDeveloper`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#e74c3c`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
