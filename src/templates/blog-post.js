@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 
+import Comments from '../components/comments'
 import Bio from '../components/bio'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -33,7 +34,7 @@ class BlogPostTemplate extends React.Component {
           }}
         />
         <Bio />
-
+        <Comments />
         <ul
           style={{
             display: 'flex',
@@ -51,6 +52,7 @@ class BlogPostTemplate extends React.Component {
               </Link>
             }
           </li>
+
           <li>
             {
               next &&
