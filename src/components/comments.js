@@ -12,10 +12,10 @@ class Comments extends Component {
     }
 
     configVars() {
-        window.page = {};
+        this.page = {};
 
-        window.page.url = "https://rddeveloper.netlify.com";  // Replace PAGE_URL with your page's canonical URL variable
-        window.page.identifier = "rddeveloper#4k12"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = "https://rddeveloper.netlify.com";  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = "rddeveloper#4k12"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     }
 
     render() {
